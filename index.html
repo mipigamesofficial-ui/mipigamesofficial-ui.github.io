@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juicy Slide - Android puzzle game</title>
+<meta name="description" content="Juicy Slide: a complete Android fruit-merge puzzle game with 300 levels and an Endless mode.">
+<style>
+  :root { --ink: #3f2a56; --muted: #8a74a6; }
+  body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink);
+    background: linear-gradient(165deg, #fff1e1 0%, #ffe3ef 45%, #e6f3ff 80%, #e5fbef 100%); min-height: 100vh; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; text-align: center; }
+  img.icon { width: 120px; height: 120px; border-radius: 28px; box-shadow: 0 10px 30px rgba(170,110,160,.3); }
+  h1 { font-size: 44px; margin: 16px 0 4px; color: #ff6f91; }
+  p.tag { color: var(--muted); font-weight: 700; margin: 0 0 24px; }
+  video { width: 100%; max-width: 720px; border-radius: 18px; box-shadow: 0 12px 30px rgba(160,110,190,.3); background: #fff; }
+  .shots { display: flex; gap: 10px; overflow-x: auto; padding: 18px 2px; }
+  .shots img { width: 170px; flex: none; border-radius: 16px; box-shadow: 0 8px 20px rgba(160,110,190,.25); }
+  ul { text-align: left; display: inline-block; margin: 8px 0 20px; }
+  .note { font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon-512.png" alt="Juicy Slide icon">
+  <h1>Juicy Slide</h1>
+  <p class="tag">Slide the fruit. Pop the pairs.</p>
+  <video src="JuicySlide-gameplay.mp4" controls muted playsinline poster="feature-graphic-1024x500.png"></video>
+  <div class="shots">
+    <img src="screenshot-menu.png" alt="Main menu"><img src="screenshot-map.png" alt="Level map">
+    <img src="screenshot-level.png" alt="A level"><img src="screenshot-win.png" alt="Level complete">
+    <img src="screenshot-game.png" alt="Endless mode"><img src="screenshot-book.png" alt="Fruit Book">
+  </div>
+  <ul>
+    <li>300 levels in 15 themed worlds, boards of many shapes</li>
+    <li>Endless mode where the board grows from 3x3 to 6x6</li>
+    <li>20 original fruits to discover; original art and music</li>
+    <li>Google AdMob integrated (banner, interstitial, rewarded) - currently with test IDs</li>
+    <li>Android, targetSdk 36; plays offline</li>
+  </ul>
+  <p class="note">Status: finished, not yet published on Google Play. The complete project (source code) is offered for sale.</p>
+</main>
+</body>
+</html>
