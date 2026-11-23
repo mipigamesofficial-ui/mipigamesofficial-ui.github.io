@@ -1,0 +1,4 @@
+# app-ads.txt for MiPe Games (Juicy Slide)
+# After the AdMob account exists, replace pub-0000000000000000 with your AdMob publisher ID
+# (AdMob > Apps > app-ads.txt shows the exact line to copy) and remove the # in front of the line below.
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

@@ -3,21 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Juicy Slide - Android puzzle game</title>
-<meta name="description" content="Juicy Slide: a complete Android fruit-merge puzzle game with 300 levels and an Endless mode.">
+<title>Juicy Slide - fruit merge puzzle game by MiPe Games</title>
+<meta name="description" content="Juicy Slide: slide cute fruit, pop matching pairs and discover 20 fruits in 300 levels. A puzzle game for Android by MiPe Games.">
 <style>
   :root { --ink: #3f2a56; --muted: #8a74a6; }
   body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink);
     background: linear-gradient(165deg, #fff1e1 0%, #ffe3ef 45%, #e6f3ff 80%, #e5fbef 100%); min-height: 100vh; }
-  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; text-align: center; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; text-align: center; }
   img.icon { width: 120px; height: 120px; border-radius: 28px; box-shadow: 0 10px 30px rgba(170,110,160,.3); }
   h1 { font-size: 44px; margin: 16px 0 4px; color: #ff6f91; }
-  p.tag { color: var(--muted); font-weight: 700; margin: 0 0 24px; }
+  p.tag { color: var(--muted); font-weight: 700; margin: 0 0 20px; }
+  .soon { display: inline-block; margin: 0 0 22px; padding: 8px 18px; border-radius: 99px; background: #fff; font-weight: 800; color: #2f9e6f; box-shadow: 0 6px 16px rgba(160,110,190,.18); }
   video { width: 100%; max-width: 720px; border-radius: 18px; box-shadow: 0 12px 30px rgba(160,110,190,.3); background: #fff; }
   .shots { display: flex; gap: 10px; overflow-x: auto; padding: 18px 2px; }
   .shots img { width: 170px; flex: none; border-radius: 16px; box-shadow: 0 8px 20px rgba(160,110,190,.25); }
-  ul { text-align: left; display: inline-block; margin: 8px 0 20px; }
-  .note { font-size: 14px; color: var(--muted); }
+  ul { text-align: left; display: inline-block; margin: 8px 0 24px; }
+  footer { font-size: 14px; color: var(--muted); }
+  a { color: #3a7bd5; }
 </style>
 </head>
 <body>
@@ -25,6 +27,7 @@
   <img class="icon" src="icon-512.png" alt="Juicy Slide icon">
   <h1>Juicy Slide</h1>
   <p class="tag">Slide the fruit. Pop the pairs.</p>
+  <div class="soon">Coming soon to Google Play</div>
   <video src="JuicySlide-gameplay.mp4" controls muted playsinline poster="feature-graphic-1024x500.png"></video>
   <div class="shots">
     <img src="screenshot-menu.png" alt="Main menu"><img src="screenshot-map.png" alt="Level map">
@@ -32,13 +35,16 @@
     <img src="screenshot-game.png" alt="Endless mode"><img src="screenshot-book.png" alt="Fruit Book">
   </div>
   <ul>
-    <li>300 levels in 15 themed worlds, boards of many shapes</li>
-    <li>Endless mode where the board grows from 3x3 to 6x6</li>
-    <li>20 original fruits to discover; original art and music</li>
-    <li>Google AdMob integrated (banner, interstitial, rewarded) - currently with test IDs</li>
-    <li>Android, targetSdk 36; plays offline</li>
+    <li>300 levels in 15 colourful worlds, on boards of every shape</li>
+    <li>Endless mode: the board grows from 3x3 to 6x6</li>
+    <li>20 cute fruits to discover in the Fruit Book</li>
+    <li>A daily fruit basket for coming back</li>
+    <li>Plays offline</li>
   </ul>
-  <p class="note">Status: finished, not yet published on Google Play. The complete project (source code) is offered for sale.</p>
+  <footer>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+    <p>MiPe Games &middot; Contact: <a href="mailto:mipigamesofficial@gmail.com">mipigamesofficial@gmail.com</a></p>
+  </footer>
 </main>
 </body>
 </html>
